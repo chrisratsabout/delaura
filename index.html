@@ -8,133 +8,190 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
-    <title>Del Aura</title>
+    <script src="https://kit.fontawesome.com/8efc22d7af.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Del Aura - Made with Bootstrap</title>
 </head>
 
 <body>
-    <div class="container-1 colored-section">
-        <div class="firstdiv">
-            <div class="logo-pic">
-                <img class="logo" src="images/logo.png" alt="logo">
-            </div>
-            <p>featuring Derek Baker and Chris Ratsabout</p>
-        </div>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img class="navbar-logo" src="images/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="container-2 white-section">
-        <h2>Latest News</h2>
-        <div class="news">
-            <h3>Summer 2022</h3>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#latest-news">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#latest-news">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#release-section">Releases</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-section">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#listen-section">Listen</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="latest-news">
+        <div class="news white-section">
+            <h2>Latest News</h2><br>
+            <h3>Summer 2022:</h3>
             <p class="news-text"> The boys are back at it and making progress on their newest album! More release info
                 coming soon!</p><br>
-            <div class="news-int">
-                <h3>February 18, 2022</h3>
-                <a href="https://delaura.bandcamp.com/"><img class="suertes-photo" src="images/suertes.jpg"
-                        alt="suertes"></a>
-                <p class="suertes-text"><em>Las Suertes</em> is now available on bandcamp and all streaming services!
-                </p>
-            </div>
+            <h3>February 18, 2022:</h3>
+            <img class="suertes-photo" src="images/suertes.jpg" alt="suertes">
+            <p class="suertes-text"><em>Las Suertes</em> is now available on bandcamp and all streaming services!</p>
         </div>
-
-    </div>
-
-    <div class="container-3 colored-section">
-        <h2>Releases</h2>
-        <div class="releases">
-            <div class="album-int">
-
-                <a href="https://delaura.bandcamp.com/album/ruptura"><img class="release-photo" src="images/Ruptura.jpg"
-                        alt="ruptura"></a>
-                <h2>Ruptura</h2>
-                <p class="album">“Ruptura” is DEL AURA’s debut album filled with dense layers of ‘80s-vibe synthesizers
-                    and spacey soundscapes. The title track was written as far back as 2014 and the rest of the music
-                    took shape in 2018 - 2019. Derek wrote the lyrics and recorded the vocals in June - August 2020.
-                </p>
-            </div>
-
-            <div class="album-int">
-
-                <a href="https://delaura.bandcamp.com/album/undefined"><img class="release-photo"
-                        src="images/Undefined.jpg" alt="undefined"></a>
-                <h2>Undefined</h2>
-                <p class="album">Technical guitar riffs, odd-time signatures, abrupt transitions, and the exploration of
-                    other musical genres are all found on their second effort “Undefined”. The title track’s earliest
-                    demo dates back to 2010 and the other songs were written when the two met in the summer of 2014.
-                    Emily provided additional vocals on “Niebla”, “Myriad”, and “Eight Minute Rays”, and Carlos played
-                    the sax on “Hemispheres, Pt. 1”.</p>
-            </div>
-
-            <div class="album-int">
-
-                <a href="https://delaura.bandcamp.com/album/moratorium"><img class="release-photo"
-                        src="images/Moratorium.jpg" alt="moratorium"></a>
-                <h2>Moratorium</h2>
-                <p class="album">“Moratorium” features Derek as the main songwriter and performer on this release. These
-                    songs were worked on during the initial collaboration in 2014 and also existed as rough demos.
-                    Luckily, the original guitar takes from 2014 were still usable, leaving the two without much left to
-                    redo. In January 2021, Derek recorded his vocals again while Chris played bass and learned how to
-                    play the recorder for “What Lies Beyond Truth”. </p>
-            </div>
-
-            <div class="album-int">
-
-                <a href="https://delaura.bandcamp.com/album/concordia"><img class="release-photo"
-                        src="images/Concordia.jpg" alt="concordia"></a>
-                <h2>Concordia</h2>
-                <p class="album">“Concordia” is a reimagined version of the debut album “Ruptura”. Despite the change in
-                    genre, each song retains the main musical motifs from the original version. Following an unorthodox
-                    approach, the pre-existing vocal melodies shaped the music that was composed afterward. </p>
-            </div>
-
-            <div class="album-int">
-
-                <a href="https://delaura.bandcamp.com/album/las-suertes"><img class="release-photo"
-                        src="images/suertes.jpg" alt="suertes"></a>
-                <h2>Las Suertes</h2>
-                <p class="album">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti nesciunt aperiam,
-                    ipsam recusandae animi, nam dolorem sed quod dignissimos quae qui itaque! Vitae odit dicta modi
-                    voluptates veritatis consequuntur qui. </p>
-            </div>
-
-            <div class="album-int">
-
-                <img class="release-photo" src="images/2016.jpg" alt="2016">
-                <h2>2016 WIP</h2>
-                <p class="album">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti nesciunt aperiam,
-                    ipsam recusandae animi, nam dolorem sed quod dignissimos quae qui itaque! Vitae odit dicta modi
-                    voluptates veritatis consequuntur qui. </p>
-            </div>
+    </section>
 
 
-        </div>
+    <section id="release-section">
+        <div class="container-3 colored-section">
+            <h2>Releases</h2>
+            <div class="releases">
+                <div class="album-int">
 
-    </div>
+                    <a href="https://delaura.bandcamp.com/album/ruptura"><img class="release-photo"
+                            src="images/Ruptura.jpg" alt="ruptura"></a>
+                    <h2>Ruptura</h2>
+                    <p class="album">“Ruptura” is DEL AURA’s debut album filled with dense layers of ‘80s-vibe
+                        synthesizersand spacey soundscapes. The title track was written as far back as 2014 and the rest
+                        of the
+                        music took shape in 2018 - 2019. Derek wrote the lyrics and recorded the vocals in June - August
+                        2020.
+                    </p>
+                </div>
 
-    <div class="container-4 white-section">
-        <h2>About</h2>
-        <div class="about">
-            <div class="derek">
+                <div class="album-int">
 
-                <img class="about-photo" src="images/Derek.jpg" alt="derek">
-                <h2>Derek Baker</h2>
-                <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quis? Natus
-                    assumenda soluta explicabo, sunt excepturi ipsum vero, omnis delectus, minus provident perferendis
-                    magni. Quos repellat aliquam rem unde eaque?</p>
-            </div>
+                    <a href="https://delaura.bandcamp.com/album/undefined"><img class="release-photo"
+                            src="images/Undefined.jpg" alt="undefined"></a>
+                    <h2>Undefined</h2>
+                    <p class="album">Technical guitar riffs, odd-time signatures, abrupt transitions, and the
+                        exploration of
+                        other musical genres are all found on their second effort “Undefined”. The title track’s
+                        earliest
+                        demo dates back to 2010 and the other songs were written when the two met in the summer of 2014.
+                        Emily provided additional vocals on “Niebla”, “Myriad”, and “Eight Minute Rays”, and Carlos
+                        played
+                        the sax on “Hemispheres, Pt. 1”.</p>
+                </div>
 
-            <div class="chris">
+                <div class="album-int">
 
-                <img class="about-photo" src="images/chris.jpg" alt="chris">
-                <h2>Chris Ratsabout</h2>
-                <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quis? Natus
-                    assumenda soluta explicabo, sunt excepturi ipsum vero, omnis delectus, minus provident perferendis
-                    magni. Quos repellat aliquam rem unde eaque?</p>
+                    <a href="https://delaura.bandcamp.com/album/moratorium"><img class="release-photo"
+                            src="images/Moratorium.jpg" alt="moratorium"></a>
+                    <h2>Moratorium</h2>
+                    <p class="album">“Moratorium” features Derek as the main songwriter and performer on this release.
+                        These
+                        songs were worked on during the initial collaboration in 2014 and also existed as rough demos.
+                        Luckily, the original guitar takes from 2014 were still usable, leaving the two without much
+                        left to
+                        redo. In January 2021, Derek recorded his vocals again while Chris played bass and learned how
+                        to
+                        play the recorder for “What Lies Beyond Truth”. </p>
+                </div>
+
+                <div class="album-int">
+
+                    <a href="https://delaura.bandcamp.com/album/concordia"><img class="release-photo"
+                            src="images/Concordia.jpg" alt="concordia"></a>
+                    <h2>Concordia</h2>
+                    <p class="album">“Concordia” is a reimagined version of the debut album “Ruptura”. Despite the
+                        change in
+                        genre, each song retains the main musical motifs from the original version. Following an
+                        unorthodox
+                        approach, the pre-existing vocal melodies shaped the music that was composed afterward. </p>
+                </div>
+
+                <div class="album-int">
+
+                    <a href="https://delaura.bandcamp.com/album/las-suertes"><img class="release-photo"
+                            src="images/suertes.jpg" alt="suertes"></a>
+                    <h2>Las Suertes</h2>
+                    <p class="album">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti nesciunt
+                        aperiam,
+                        ipsam recusandae animi, nam dolorem sed quod dignissimos quae qui itaque! Vitae odit dicta modi
+                        voluptates veritatis consequuntur qui. </p>
+                </div>
+
+                <div class="album-int">
+
+                    <img class="release-photo" src="images/2016.jpg" alt="2016">
+                    <h2>2016 WIP</h2>
+                    <p class="album">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti nesciunt
+                        aperiam,
+                        ipsam recusandae animi, nam dolorem sed quod dignissimos quae qui itaque! Vitae odit dicta modi
+                        voluptates veritatis consequuntur qui. </p>
+                </div>
+
+
             </div>
 
         </div>
+    </section>
+
+    <section id="about-section">
+        <div class="container-4 white-section">
+            <h2>About</h2>
+            <div class="about">
+                <div class="derek">
+
+                    <img class="about-photo" src="images/Derek.jpg" alt="derek">
+                    <h2>Derek Baker</h2>
+                    <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quis? Natus
+                        assumenda soluta explicabo, sunt excepturi ipsum vero, omnis delectus, minus provident
+                        perferendis
+                        magni. Quos repellat aliquam rem unde eaque?</p>
+                </div>
+
+                <div class="chris">
+
+                    <img class="about-photo" src="images/chris.jpg" alt="chris">
+                    <h2>Chris Ratsabout</h2>
+                    <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quis? Natus
+                        assumenda soluta explicabo, sunt excepturi ipsum vero, omnis delectus, minus provident
+                        perferendis
+                        magni. Quos repellat aliquam rem unde eaque?</p>
+                </div>
+
+            </div>
+
+    </section>
+
+    <section id="listen-section">
+        <h2><i class="fa-solid fa-headphones"></i> Listen to DEL AURA here: <i class="fa-solid fa-headphones"></i></h2>
+
+        <button type="button" class="btn btn-outline-light" href="https://open.spotify.com/artist/0JTyqmMbWvhZpV1z6KgpvP"><i class="fa-solid fa-cloud-music"></i> Spotify</button>
+        <button type="button" class="btn btn-outline-light" href="https://delaura.bandcamp.com/"><i class="fa-brands fa-bandcamp"></i> Bandcamp</button>
+
+    </section>
 
 
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
