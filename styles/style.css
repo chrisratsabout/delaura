@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+
+
+.logo {
+  max-width: 60%;
+}
+
+.container-1, .container-2, .container-3, .container-4 {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+
+.colored-section {
+  background-color: darkgray;
+  color: #fff;
+}
+
+.suertes-photo {
+  max-width: 30%;
+}
+
+.suertes-photo:hover {
+  opacity: 0.5;
+}
+
+
+/** RELEASES CSS CODE **/
+
+
+
+
+.release-photo {
+  width: 70%;
+
+}
+
+.release-photo:hover {
+  opacity: 0.5;
+}
+
+.releases {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.album-int, .derek, .chris {
+  padding: 15px;
+width: 300px;
+}
+
+
+
+
+/** ABOUT CSS CODE **/
+.about {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.about-photo {
+width: 70%;
+  border-radius: 50%;
+}
