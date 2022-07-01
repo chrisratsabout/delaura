@@ -2,66 +2,39 @@
 
 body {
   font-family: 'Raleway', sans-serif;
+  text-align: center;
   margin: 0;
 }
 
-
-
-.logo-pic {
-  display: flex;
-  justify-content: center;
-
+h2 {
+  padding-top: 30px;
 }
 
-.logo {
-  width: 50%;
+.navbar-logo {
+  width: 200px;
 }
 
-.firstdiv {
+/** NEWS CSS **/
+#latest-news {
+background-color: rgb(255, 255, 255);
+
+}
+.news, #listen-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.container-1, .container-2, .container-3, .container-4 {
-  text-align: center;
-  padding: 20px;
-  font-size: 1.2rem;
-  line-height: 1.5;
-}
-
-
-.colored-section {
-  background-color: darkgray;
-  color: #fff;
 }
 
 .suertes-photo {
-  max-width: 70%;
-}
-
-.suertes-photo:hover {
-  opacity: 0.5;
-}
-
-.news {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.news-int {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 500px;
-
+  width: 300px;
 }
 
 /** RELEASES CSS CODE **/
 
-
+#release-section, #listen-section {
+  background-color: #343a40;
+  color: #fff;
+}
 
 
 .release-photo {
@@ -96,4 +69,11 @@ width: 300px;
 .about-photo {
 width: 70%;
   border-radius: 50%;
+}
+
+/** LISTEN SECTION CSS CODE **/
+
+.btn {
+  padding: 10px 15px;
+  margin: 10px;
 }
