@@ -7,8 +7,20 @@ body {
 
 
 
+.logo-pic {
+  display: flex;
+  justify-content: center;
+
+}
+
 .logo {
-  max-width: 70%;
+  width: 50%;
+}
+
+.firstdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container-1, .container-2, .container-3, .container-4 {
@@ -25,13 +37,27 @@ body {
 }
 
 .suertes-photo {
-  max-width: 30%;
+  max-width: 70%;
 }
 
 .suertes-photo:hover {
   opacity: 0.5;
 }
 
+.news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news-int {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+
+}
 
 /** RELEASES CSS CODE **/
 
